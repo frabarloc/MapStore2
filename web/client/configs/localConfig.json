@@ -10,7 +10,11 @@
           "https://gs-stable.geo-solutions.it/geoserver",
           "https://gs-stable.geo-solutions.it:443/geoserver",
           "http://gs-stable.geo-solutions.it/geoserver",
-          "http://gs-stable.geo-solutions.it:443/geoserver"
+          "http://gs-stable.geo-solutions.it:443/geoserver",
+          "http://localhost:8084/app",
+          "http://app:8084/app",
+          "http://localhost:8085/geoserver",
+          "http://geoserver:8080/geoserver"
         ]
     },
     "geoStoreUrl": "rest/geostore/",
@@ -479,7 +483,24 @@
             "Timeline",
             "Playback",
             "FeedbackMask",
-            "StyleEditor"
+            "StyleEditor",
+            {
+              "name": "Simulation",
+              "showIn": ["BurgerMenu"]
+            },
+            {
+              "name": "DxfImport",
+              "showIn": ["BurgerMenu"]
+            },
+            {
+              "name": "SwitchesConfig",
+              "showIn": ["BurgerMenu"]
+            },
+            {
+              "name": "SimulationConfig",
+              "showIn": ["BurgerMenu"]
+            }
+
         ],
         "embedded": ["Details", {
                 "name": "Map",

@@ -82,11 +82,12 @@ export default {
             "name": "CRSSelector",
             "cfg": {
                 "additionalCRS": {
-
+                    "EPSG:3003": { "label": "EPSG:3003" }
                 },
                 "filterAllowedCRS": [
                     "EPSG:4326",
-                    "EPSG:3857"
+                    "EPSG:3857",
+                    "EPSG:3003"
                 ],
                 "allowedRoles": [
                     "ADMIN"

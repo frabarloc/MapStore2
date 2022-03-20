@@ -580,6 +580,48 @@
       "title": "plugins.StreetView.title",
       "description": "plugins.StreetView.description",
       "dependencies": ["Toolbar"]
+    },
+    {
+      "name": "Simulation",
+      "glyph": "wrench",
+      "title": "Simulation launcher",
+      "description": "Interface to launch simulations",
+      "dependencies": ["BurgerMenu"],
+      "defaultConfig": {
+        "urlConfigFile": "http://localhost:8084/app/config_file",
+        "urlSimulation": "http://localhost:8084/app/simulation"
+      }
+    },
+    {
+      "name": "DxfImport",
+      "glyph": "upload",
+      "title": "Dxf Import",
+      "description": "Interface to import dxf files",
+      "dependencies": ["BurgerMenu"],
+      "defaultConfig": {
+        "urlConfigFile": "http://localhost:8084/app/config_file",
+        "urlDxfFile": "http://localhost:8084/app/dxf_file"
+      }
+    },
+    {
+      "name": "SwitchesConfig",
+      "glyph": "cog",
+      "title": "Switches Configuration",
+      "description": "Interface to configure switches",
+      "dependencies": ["BurgerMenu"],
+      "defaultConfig": {
+        "urlSwitchesConfigFile": "http://localhost:8084/app/switches_config_file"
+      }
+    },
+    {
+      "name": "SimulationConfig",
+      "glyph": "wrench",
+      "title": "Configure Simulator",
+      "description": "Interface to configure simulations",
+      "dependencies": ["BurgerMenu"],
+      "defaultConfig": {
+        "urlConfigFile": "http://localhost:8084/app/config_file"
+      }
     }
   ]
 }

@@ -1,0 +1,15 @@
+  .row-switch {
+      width: 300px;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-bottom: 15px;
+  }
+
+  .check-field {
+      margin-right: 5px !important;
+      margin-top: 10px !important;
+  }
+
+  .cabin-name {
+      margin-left: 25px;
+  }

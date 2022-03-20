@@ -1,0 +1,26 @@
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .row-dxf {
+      width: 350px;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-bottom: 15px;
+  }
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    font-weight: normal;
+    min-width: 350px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 9px;
+}

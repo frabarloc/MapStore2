@@ -126,7 +126,11 @@ export default {
         WidgetsTrayPlugin: require('../plugins/WidgetsTray').default,
         ZoomAllPlugin: require('../plugins/ZoomAll').default,
         ZoomInPlugin: require('../plugins/ZoomIn').default,
-        ZoomOutPlugin: require('../plugins/ZoomOut').default
+        ZoomOutPlugin: require('../plugins/ZoomOut').default,
+        SimulationPlugin: require('../plugins/simulation/Simulation').default,
+        DxfImportPlugin: require('../plugins/dxf-import/DxfImport').default,
+        SwitchesConfigPlugin: require('../plugins/switches-config/SwitchesConfig').default,
+        SimulationConfigPlugin: require('../plugins/simulation-config/SimulationConfig').default
     },
     requires: {
         ReactSwipe: require('react-swipeable-views').default,

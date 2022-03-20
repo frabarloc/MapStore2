@@ -1,0 +1,27 @@
+label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .row-sim {
+      width: 350px !important;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-bottom: 15px;
+  }
+
+  .select-field {
+      width: 350px !important;
+      height: 30px !important;
+  }
+
+  .check-field {
+      margin-right: 5px !important;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 15px;
+  }
